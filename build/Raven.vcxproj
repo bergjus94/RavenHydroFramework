@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{60228900-A8FC-3153-A9B9-FA69A335DBC0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Raven</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Raven.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Raven</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Raven.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Raven</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Raven.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Raven</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Raven.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Raven</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/netCDF 4.9.2/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;STANDALONE;netcdf;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;STANDALONE;netcdf;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\netCDF 4.9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\netCDF 4.9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\netCDF 4.9.2\lib\netcdf.lib;C:\Program Files\netCDF 4.9.2\lib\hdf5.lib;C:\Program Files\netCDF 4.9.2\lib\hdf5_hl.lib;C:\Program Files\netCDF 4.9.2\lib\zlib.lib;C:\Program Files\netCDF 4.9.2\lib\libcurl_imp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/Debug/Raven.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/Debug/Raven.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/netCDF 4.9.2/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STANDALONE;netcdf;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STANDALONE;netcdf;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\netCDF 4.9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\netCDF 4.9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\netCDF 4.9.2\lib\netcdf.lib;C:\Program Files\netCDF 4.9.2\lib\hdf5.lib;C:\Program Files\netCDF 4.9.2\lib\hdf5_hl.lib;C:\Program Files\netCDF 4.9.2\lib\zlib.lib;C:\Program Files\netCDF 4.9.2\lib\libcurl_imp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/Release/Raven.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/Release/Raven.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/netCDF 4.9.2/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STANDALONE;netcdf;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STANDALONE;netcdf;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\netCDF 4.9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\netCDF 4.9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\netCDF 4.9.2\lib\netcdf.lib;C:\Program Files\netCDF 4.9.2\lib\hdf5.lib;C:\Program Files\netCDF 4.9.2\lib\hdf5_hl.lib;C:\Program Files\netCDF 4.9.2\lib\zlib.lib;C:\Program Files\netCDF 4.9.2\lib\libcurl_imp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/MinSizeRel/Raven.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/MinSizeRel/Raven.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/netCDF 4.9.2/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STANDALONE;netcdf;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;STANDALONE;netcdf;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\netCDF 4.9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\netCDF 4.9.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\netCDF 4.9.2\lib\netcdf.lib;C:\Program Files\netCDF 4.9.2\lib\hdf5.lib;C:\Program Files\netCDF 4.9.2\lib\hdf5_hl.lib;C:\Program Files\netCDF 4.9.2\lib\zlib.lib;C:\Program Files\netCDF 4.9.2\lib\libcurl_imp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/RelWithDebInfo/Raven.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/RelWithDebInfo/Raven.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework" "-BC:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build" --check-stamp-file "C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFConfig.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFConfigVersion.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFTargets-Release.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFTargets.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeCXXCompiler.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeRCCompiler.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework" "-BC:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build" --check-stamp-file "C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFConfig.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFConfigVersion.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFTargets-Release.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFTargets.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeCXXCompiler.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeRCCompiler.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework" "-BC:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build" --check-stamp-file "C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFConfig.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFConfigVersion.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFTargets-Release.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFTargets.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeCXXCompiler.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeRCCompiler.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework" "-BC:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build" --check-stamp-file "C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFConfig.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFConfigVersion.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFTargets-Release.cmake;C:\Program Files\netCDF 4.9.2\lib\cmake\netCDF\netCDFTargets.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeCXXCompiler.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeRCCompiler.cmake;C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\3.29.8\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Abstraction.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Advection.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Assimilate.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Baseflow.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CapillaryRise.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ChannelXSect.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ChemEquilibrium.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CommonFunctions.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ConstituentModel.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ControlStructures.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Convolution.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CropGrowth.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CustomOutput.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CustomTable.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DDS.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Decay.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DemandExpressionHandling.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DemandGroups.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DemandOptimization.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DepressionProcesses.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Diagnostics.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Drain.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\EnKF.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\EnergyTransport.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Evaporation.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Flush.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ForcingGrid.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Forcings.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\FrozenLake.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GWRecharge.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GWRiverConnection.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GWSWProcessABC.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Gauge.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GlacierProcesses.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GlobalParams.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GreenAmpt.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GroundwaterModel.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HRUGroups.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HeatConduction.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HydroProcessABC.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HydroUnits.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Infiltration.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Interflow.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\IrregularTimeSeries.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\IsotopeTransport.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LandUseClass.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LatAdvection.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LatEquilibrate.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LatFlush.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LateralExchangeABC.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LookupTable.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\MassLoading.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\MassRouting.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Matrix.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Model.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelEnsemble.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelForcingGrids.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelInitialize.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelParamCheck.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\NetCDFReading.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\OpenWaterEvap.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\OrographicCorrections.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseEnsembleFile.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseFEWSRunInfo.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseGWFile.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseHRUFile.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseInitialConditionFile.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseInput.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseLib.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseLiveFile.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseManagementFile.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParsePropertyFile.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseTimeSeriesFile.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\PartitionPrecip.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Percolation.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\PotentialMelt.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\PrairieSnow.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ProcessGroup.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Radiation.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\RavenMain.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Raven_BMI.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Recharge.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Reservoir.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\RiverReach.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowAlbedo.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowBalance.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowMeltRefreeze.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowParams.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowTempEvolve.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilBalance.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilClass.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilEvaporation.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilParams.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilProfile.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Solvers.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SparseMatrix.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\StageDischargeRelations.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\StandardOutput.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\StateVariables.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SubBasin.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SubbasinGroups.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Sublimation.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SurfaceEnergyExchange.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TerrainClass.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TimeSeries.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TimeSeriesABC.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Transformation.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TransientParam.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Transport.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\UTM_to_LatLong.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\UnitTesting.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\UpdateForcings.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\VegetationClass.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\VegetationMovers.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\VegetationParams.cpp" />
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\WaterDemands.cpp" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Advection.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Albedo.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\BMI.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ChannelXSect.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ChemEquilibrium.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ControlStructures.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Convolution.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CropGrowth.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CustomOutput.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Decay.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DemandOptimization.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Demands.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DepressionProcesses.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Diagnostics.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\EnKF.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\EnergyTransport.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Expression.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ForcingGrid.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Forcings.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\FrozenLake.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GWRiverConnection.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GWSWProcesses.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Gauge.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GlacierProcesses.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GlobalParams.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GracefulEndBMI.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GracefulEndStandalone.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GroundwaterModel.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HeatConduction.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HydroProcessABC.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HydroUnits.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Infiltration.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\IrregularTimeSeries.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\IsotopeTransport.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LatAdvection.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LateralExchangeABC.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LookupTable.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\MFUSGpp.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\MassLoading.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Matrix.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Model.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelABC.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelEnsemble.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\OpenWaterEvap.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseLib.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\PrairieSnow.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Precipitation.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ProcessGroup.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Properties.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Radiation.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\RavenInclude.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\RavenMain.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Raven_BMI.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Reservoir.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\RiverReach.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowMovers.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilAndLandClasses.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilProfile.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilWaterMovers.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SparseMatrix.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\StageDischargeRelations.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\StateVariables.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SubBasin.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SurfaceEnergyExchange.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TimeSeries.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TimeSeriesABC.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TransientParam.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Transport.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\UnitTesting.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\VegetationMovers.h" />
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build\ZERO_CHECK.vcxproj">
+      <Project>{896D90E3-3FB0-37CD-8E76-20FC100FCFFE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

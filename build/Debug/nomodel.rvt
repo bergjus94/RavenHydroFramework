@@ -1,0 +1,53 @@
+#########################################################################
+:FileType          rvt ASCII Raven 3.5
+:WrittenBy         Justine Berg
+:CreationDate      2024-09-23
+#
+# Emulation of HBV simulation of 2268
+#------------------------------------------------------------------------ 
+
+# meteorological forcings
+:GriddedForcing           Rainfall
+    :ForcingType          RAINFALL
+    :FileNameNC           data_obs/prec_Meteoswiss.nc
+    :VarNameNC            data
+    :DimNamesNC           x y time     # must be in the order of (x,y,t) 
+    :RedirectToFile       data_obs/GridWeights.txt
+:EndGriddedForcing
+
+:GriddedForcing           Average Temperature
+    :ForcingType          TEMP_AVE
+    :FileNameNC           data_obs/temp_Meteoswiss.nc
+    :VarNameNC            data
+    :DimNamesNC           x y time     # must be in the order of (x,y,t) 
+    :RedirectToFile       data_obs/GridWeights.txt
+:EndGriddedForcing
+
+:GriddedForcing           Maximum Temperature
+    :ForcingType          TEMP_MAX
+    :FileNameNC           data_obs/temp_max_Meteoswiss.nc
+    :VarNameNC            data
+    :DimNamesNC           x y time     # must be in the order of (x,y,t) 
+    :RedirectToFile       data_obs/GridWeights.txt
+:EndGriddedForcing
+
+:GriddedForcing           Minimum Temperature
+    :ForcingType          TEMP_MIN
+    :FileNameNC           data_obs/temp_min_Meteoswiss.nc
+    :VarNameNC            data
+    :DimNamesNC           x y time     # must be in the order of (x,y,t) 
+    :RedirectToFile       data_obs/GridWeights.txt
+:EndGriddedForcing
+
+:Gauge 2268
+  :Latitude    46.562342279
+  :Longitude 8.362416771
+  :Elevation  1761
+
+   :RainCorrection    1.250322E+00 
+  :SnowCorrection    4.912927E-01
+ 
+:EndGauge
+
+# observed streamflow
+:RedirectToFile data_obs/Q_daily.rvt

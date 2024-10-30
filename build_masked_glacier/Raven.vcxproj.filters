@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Abstraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Advection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Assimilate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Baseflow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CapillaryRise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ChannelXSect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ChemEquilibrium.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CommonFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ConstituentModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ControlStructures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Convolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CropGrowth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CustomOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CustomTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DDS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Decay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DemandExpressionHandling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DemandGroups.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DemandOptimization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DepressionProcesses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Diagnostics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Drain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\EnKF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\EnergyTransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Evaporation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Flush.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ForcingGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Forcings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\FrozenLake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GWRecharge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GWRiverConnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GWSWProcessABC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Gauge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GlacierProcesses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GlobalParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GreenAmpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GroundwaterModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HRUGroups.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HeatConduction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HydroProcessABC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HydroUnits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Infiltration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Interflow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\IrregularTimeSeries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\IsotopeTransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LandUseClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LatAdvection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LatEquilibrate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LatFlush.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LateralExchangeABC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LookupTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\MassLoading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\MassRouting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelEnsemble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelForcingGrids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelInitialize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelParamCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\NetCDFReading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\OpenWaterEvap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\OrographicCorrections.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseEnsembleFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseFEWSRunInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseGWFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseHRUFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseInitialConditionFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseLiveFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseManagementFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParsePropertyFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseTimeSeriesFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\PartitionPrecip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Percolation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\PotentialMelt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\PrairieSnow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ProcessGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Radiation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\RavenMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Raven_BMI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Recharge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Reservoir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\RiverReach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowAlbedo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowBalance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowMeltRefreeze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowTempEvolve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilBalance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilEvaporation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Solvers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SparseMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\StageDischargeRelations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\StandardOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\StateVariables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SubBasin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SubbasinGroups.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Sublimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SurfaceEnergyExchange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TerrainClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TimeSeries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TimeSeriesABC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Transformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TransientParam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Transport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\UTM_to_LatLong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\UnitTesting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\UpdateForcings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\VegetationClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\VegetationMovers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\VegetationParams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\WaterDemands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Advection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Albedo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\BMI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ChannelXSect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ChemEquilibrium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ControlStructures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Convolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CropGrowth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\CustomOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Decay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DemandOptimization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Demands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\DepressionProcesses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Diagnostics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\EnKF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\EnergyTransport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Expression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ForcingGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Forcings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\FrozenLake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GWRiverConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GWSWProcesses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Gauge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GlacierProcesses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GlobalParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GracefulEndBMI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GracefulEndStandalone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\GroundwaterModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HeatConduction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HydroProcessABC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\HydroUnits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Infiltration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\IrregularTimeSeries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\IsotopeTransport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LatAdvection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LateralExchangeABC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\LookupTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\MFUSGpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\MassLoading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelABC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ModelEnsemble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\OpenWaterEvap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ParseLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\PrairieSnow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Precipitation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\ProcessGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Radiation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\RavenInclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\RavenMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Raven_BMI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Reservoir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\RiverReach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SnowMovers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilAndLandClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SoilWaterMovers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SparseMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\StageDischargeRelations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\StateVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SubBasin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\SurfaceEnergyExchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TimeSeries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TimeSeriesABC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\TransientParam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\Transport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\UnitTesting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\VegetationMovers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\src\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCD359A9-904C-3058-B623-50C206D3492B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{43FF4448-3081-3038-BB06-5629E4C389EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\JUSTINE BERG\ONEDRIVE - UNIVERSITAET BERN\RAVENHYDROFRAMEWORK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework" "-BC:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build_masked_glacier" --check-stamp-file "C:/Users/Justine Berg/OneDrive - Universitaet Bern/RavenHydroFramework/build_masked_glacier/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

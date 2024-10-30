@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Justine Berg\OneDrive - Universitaet Bern\RavenHydroFramework\build_masked_glacier\CMakeFiles\bb4d15430f1aa632e2bb3f3769107fca\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{570F9B4B-5990-36C5-866B-3928DB86FC3B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

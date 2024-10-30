@@ -399,7 +399,10 @@ void CHydroUnit::RecalculateDerivedParams(const optStruct &Options,
 //
 void CHydroUnit::UpdateForcingFunctions(const force_struct &Fnew)
 {
-  _Forcings=Fnew;
+  if (_HRUType != HRU_MASKED_GLACIER) // Check if HRU type is not masked glacier
+  {
+    _Forcings = Fnew;
+  }
 }
 
 //////////////////////////////////////////////////////////////////

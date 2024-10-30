@@ -1,0 +1,4 @@
+observed_data_series,filename,DIAG_RMSE,DIAG_KLING_GUPTA,
+HYDROGRAPH_CALIBRATION[1],data_obs/Q_daily.rvt,1.28491,0.926426,
+HYDROGRAPH_VALIDATION[1],data_obs/Q_daily.rvt,1.46098,0.884383,
+HYDROGRAPH_ALL[1],data_obs/Q_daily.rvt,1.37974,0.9053,
